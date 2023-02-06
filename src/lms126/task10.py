@@ -1,5 +1,13 @@
+
 from to_do import TODO
 
 
 def task10():
-    return TODO("Erase this line and write your solution")
+    return """
+    input user creating account 
+    to create a account enter the email ID 
+    then enter password 
+    check if password length  > = 6
+    if yes print account created 
+    else print password length is short
+    """
