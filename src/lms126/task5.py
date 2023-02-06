@@ -2,8 +2,7 @@ from to_do import TODO
 
 
 def task5():
-    return
-"""
+    return """
 input enter the value for x
 if x= 1 then output= Monday
 if x= 2 then output= Tuesday
