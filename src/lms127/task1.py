@@ -2,9 +2,9 @@ from to_do import TODO
 
 
 def task1():
-    print("Country: India")
-    print("Capital: Delhi")
-    print("Currency: Rupee")
+    print("Country: Panama")
+    print("Capital: Panama City")
+    print("Currency: USD")
 
 
 if __name__ == "__main__":
