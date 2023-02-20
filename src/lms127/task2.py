@@ -8,4 +8,4 @@ def task2():
     print(f"Hello {name}, you are from {country} and you are born in {month}")
 
 if __name__ == "__main__":
-        task2()
+    task2()
