@@ -7,5 +7,6 @@ def task2():
     month = "June"
     print(f"Hello {name}, you are from {country} and you are born in {month}")
 
+
 if __name__ == "__main__":
     task2()
