@@ -2,6 +2,12 @@ from to_do import TODO
 
 
 def task9(sentence, character):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    lower_sentence = sentence.lower()
+    lower_character = character.lower()
+    result = lower_character in lower_sentence
+    return result
+
+
+if __name__ == "__main__":
+    result = task9("i code in python", "i")
+    print(result)
