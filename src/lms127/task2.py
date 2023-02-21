@@ -5,7 +5,7 @@ def task2():
     name = "Sushma"
     country = "India"
     month = "June"
-    print(f"Hello {name}, you are from {country} and you are born in {month}")
+    print(f"Hello {name}, you are from {country} and you were born in {month}")
 
 
 
