@@ -10,12 +10,10 @@ def task10_2(assessments):
     return result2
 
 def task10_3(assessments):
-    result3 = len(assessments) / 2
-    return result3
-
-
+   return assessments[len(assessments) // 2]
 def task10_4(assessments):
-    return result4
+    result = assessments[0:3]
+    return result
 
 
 if __name__ == "__main__":
