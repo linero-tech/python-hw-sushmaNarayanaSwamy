@@ -8,8 +8,7 @@ def task1(a, b):
         for i in range(a, b+1):
             result += i
 
-    print(result)
-    return result
+    return print(result)
 
 if __name__ == "__main__":
     task1(1, 5)
