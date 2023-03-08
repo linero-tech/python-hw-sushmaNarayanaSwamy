@@ -2,6 +2,13 @@ from to_do import TODO
 
 
 def task5(sentence):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+
+    result = 0
+    for i in range(len(sentence)):
+        result += 1
+    return print(result)
+
+
+if __name__ == "__main__":
+    task5( "I love GBG")
