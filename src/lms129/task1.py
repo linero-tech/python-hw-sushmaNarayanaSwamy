@@ -1,5 +1,6 @@
 from to_do import TODO
 
+
 def task1(a, b):
     if a >= b:
         result = 0
@@ -9,6 +10,7 @@ def task1(a, b):
             result += i
 
     return print(result)
+
 
 if __name__ == "__main__":
     task1(1, 5)
