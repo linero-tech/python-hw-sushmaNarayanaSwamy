@@ -9,10 +9,10 @@ def task1(a, b):
         for i in range(a, b+1):
             result += i
 
-    return print(result)
+    return result
 
 
 if __name__ == "__main__":
-    task1(1, 5)
-    task1(3, 6)
-    task1(3, 3)
+    print(task1(1, 5))
+    print(task1(3, 6))
+    print(task1(3, 3))
