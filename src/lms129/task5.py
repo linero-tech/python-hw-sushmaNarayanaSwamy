@@ -11,4 +11,4 @@ def task5(sentence):
 
 
 if __name__ == "__main__":
-    task5( "I love GBG")
+    task5("I love GBG")
