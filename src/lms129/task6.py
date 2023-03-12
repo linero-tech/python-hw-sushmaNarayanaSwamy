@@ -6,10 +6,10 @@ def task6(number):
     for i in str(number):
         result = i + result
 
-    return print(int(result))
+    return int(result)
 
 
 if __name__ == "__main__":
-    task6(678)
-    task6(432)
-    task6(234)
+    print(task6(678))
+    print(task6(432))
+    print(task6(234))
