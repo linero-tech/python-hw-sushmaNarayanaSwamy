@@ -9,6 +9,7 @@ def task1(a, b):
         for i in range(a, b+1):
             result += i
 
+#result = result + i
     return result
 
 

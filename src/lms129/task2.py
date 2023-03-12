@@ -12,7 +12,7 @@ def task2(number):
 
 
 if __name__ == "__main__":
-    print(task2(7))
+    print(task2(3))
     print(task2(5))
     print(task2(2))
     print(task2(1))
