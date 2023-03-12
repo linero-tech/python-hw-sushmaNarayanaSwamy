@@ -11,4 +11,5 @@ def task8(number):
 
 if __name__ == "__main__":
     print(task8(number=123))
-    print(task8(number= 444))
+    print(task8(number=444))
+    print(task8(number=236))
