@@ -11,11 +11,12 @@ def task9(temperature):
     elif unit == "c":
         result = str(int((temp * 9 / 5) + 32)) + "F"
 
-    print(result)
+
     return result
 
 
 if __name__ == "__main__":
-    task9("-30C")
-    task9("-20C")
-    task9("50f")
+    print(task9("-30C"))
+    print(task9("20F"))
+    print(task9("-20C"))
+    print(task9("50f"))
