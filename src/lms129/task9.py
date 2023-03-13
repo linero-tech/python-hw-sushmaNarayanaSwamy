@@ -5,10 +5,10 @@ def task9(temperature):
     t1 = len(temperature) - 1
     temp = int(temperature[:t1])
     unit = (temperature[t1:]).lower()
-    if unit == "f":
+    if unit == 'f':
         result = str(int((temp - 32) * 5 / 9)) + "c"
 
-    elif unit == "c":
+    elif unit == 'c':
         result = str(int((temp * 9 / 5) + 32)) + "F"
 
 
